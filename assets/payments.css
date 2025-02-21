@@ -58,9 +58,11 @@ border: 1.4px solid var(--brand-color-primary);
   }
   }
 
-  & .strong{font: var(---fs-2xl);
+  & strong{font: var(---fs-2xl);
+    font-weight: var(--fw-base);
+    font-size: var(--fs-base);
 color: var(--text-color-secondary);
-margin-left: 0.7rem;}
+margin-left: 0.1rem;}
 }
 
 
