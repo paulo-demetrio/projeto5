@@ -1,0 +1,99 @@
+#payments{
+
+& > .header{text-align: center;
+}
+
+
+
+  .h6{color: var(--brand-color-primary);}
+
+
+    & div{
+display: grid;
+margin-inline: auto;
+
+      h2{max-width: 21rem;
+        margin-inline: auto;}
+
+    }
+    
+    .btn{width: 11rem;
+      margin-top: 0.5rem;}
+
+
+
+
+
+
+
+    }
+    
+    
+    .payment{
+      margin-top: 2.3rem;
+    padding-inline: 1.5rem;
+    background-color: var(--stroke-color);
+    border-radius: 1rem;
+    width: 14rem;
+    height: 28rem;
+  
+   
+
+    p{padding-bottom: 1.2rem;
+      padding-top: 0.5rem;
+      color: var(--text-color-secondary);}
+    
+    div{margin-inline: 1rem;
+    
+  }
+
+
+
+    
+    ul{ padding-top: 1.2rem;
+      color: var(--text-color-secondary);
+    }
+
+
+
+
+    }
+
+
+
+    .download{
+      margin-top: 1rem;
+      padding-bottom: 1.7rem;
+      border-bottom: 1px solid var(--text-color-secondary);
+      
+
+ 
+
+  }
+  
+  h3{ margin-top: 0.8rem;
+    padding-bottom: 0.5rem;
+}
+h5{margin-bottom: 0.4rem;}
+
+  a.shadow{filter: drop-shadow(2px 2px 6px white);}
+    li:nth-child(1){padding-top: 1rem;}
+
+    li{padding-top: 0.5rem;
+    list-style-image:url(../icons/Check.svg) ;
+    margin-left: 1.4rem;}
+
+
+    .family{
+    height: 34.7rem;
+    
+    }
+
+    .premium{height: 32rem;
+      border: 1.4px solid var(--brand-color-primary);}
+
+
+
+
+
+

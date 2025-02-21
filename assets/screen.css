@@ -1,0 +1,35 @@
+@media(width >= 48rem){
+.container{
+    --max-width:80rem;
+}
+.sechero{
+background: url(../img/Illustration.png)
+no-repeat bottom center/contain ;
+    
+    
+}
+
+}
+
+@media (width <= 32.375rem){
+    .display{ display:none;}
+   .imgson{
+        max-height: 3.25rem;
+        max-width: 12.875rem;
+     
+    }
+
+    h1{ font-size: var(--fs-lg);}
+
+
+}
+
+
+
+
+
+
+.img{
+    max-width: 100%;
+    display: block;
+}

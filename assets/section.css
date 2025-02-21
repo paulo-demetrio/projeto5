@@ -1,0 +1,48 @@
+#about{ 
+    background-color: rgb(24, 24, 27) ;
+
+
+& h6{color: var(--brand-color-primary);}
+
+& p{ color: var(--text-color-secondary);
+padding-top: 0.5rem;
+}
+
+.softimg{
+
+   
+
+        height:14rem ;
+        width:100.875rem ;
+
+   
+}
+}
+.mobile{
+
+   max-width: 100%;
+   
+
+
+
+background: url(../img/Illustration.png) top/cover;
+padding-bottom: 2.4rem;
+}
+
+
+
+@media (width <= 47.92rem){
+h2{
+font-size: var(--py-bl);    
+}
+
+.softimg{display: none;
+}
+}
+
+
+
+@media(width >= 48rem){
+    .mobile{display: none;
+    }
+}

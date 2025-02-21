@@ -1,0 +1,45 @@
+#autor{
+
+
+
+.autor{background-color: var(--stroke-color);
+width: 15rem;
+height: 30rem;
+margin-inline: auto;
+margin-block:3rem;
+padding-inline: var(--py-base);
+padding-block:var(--px-lg);
+border-radius: 1rem;
+
+
+
+ & div > h6{
+        font-size: var(--fs-base) ;
+        color: var(--brand-color-primary);
+    }
+    & div > p{
+        color: var(--text-color-secondary);
+    }
+& div:nth-child(2){padding-block: var(--px-lg);
+
+   & picture > a > img{height: 3rem;}
+   & picture:nth-child(1) > a > img{margin-top: 0.7rem;}
+& picture:nth-child(2) > a > img{
+height: 2.72rem;
+margin-top: 0.5rem;
+}
+}
+
+position: relative;
+& > img{height: 20rem;
+    position: absolute;
+    bottom: -2rem;
+    right: -2.5rem;
+}
+
+}
+ }
+
+
+
+ 

@@ -1,0 +1,33 @@
+
+.secdiv{
+padding-top: 2rem;
+padding-left: 1rem;
+
+
+ & div{
+
+    background: #18181b;
+    border-radius: 1rem;
+
+
+ }   
+& h3, p{padding-top: 0.5rem;}
+
+.paddingbox{ padding: 23px 10px;}
+
+
+
+
+& img[iphone]{height: 240px;
+}
+
+}
+
+
+@media (width <= 32.375rem){
+    .secdiv{
+     
+        padding-left: 0.1rem;
+        margin-inline: 0.9rem;
+    }
+}

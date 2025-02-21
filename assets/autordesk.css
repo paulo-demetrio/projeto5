@@ -1,0 +1,54 @@
+#autor{
+
+
+
+    .autor{background-color: var(--stroke-color);
+    width: auto;
+    height: 27rem;
+    margin-inline: 1rem;
+    margin-block:3rem;
+    padding-inline: var(--py-base);
+    padding-block:var(--px-lg);
+    border-radius: 1rem;
+    
+    
+    & div > h3{    font-size: var(--fs-2xl) ;
+        padding-inline: 3rem;}
+
+     & div > h6{
+        padding-inline: 3rem;
+        margin-top: 4rem;
+            font-size: var(--fs-base) ;
+            color: var(--brand-color-primary);
+        }
+        & div > p{
+            padding-inline: 3rem;
+            color: var(--text-color-secondary);
+            max-width: 27rem;
+        }
+    & div:nth-child(2){padding-block: var(--px-lg);
+        padding-inline: 3rem;
+
+       & picture > a > img{height: 3rem;}
+
+       & picture:nth-child(1) > a > img{margin-top: 0.7rem;}
+
+    & picture:nth-child(2) > a > img{
+    height: 3rem;
+    margin-top: 0.5rem;
+    }
+    }
+    
+    position: relative;
+    & > img{height:30rem;
+        position: absolute;
+        bottom: -3rem;
+        right: 0rem;
+    }
+    
+    }
+     }
+    
+    
+    
+     

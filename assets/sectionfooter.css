@@ -1,0 +1,98 @@
+#footer{
+
+.footer{
+display: flex;
+justify-content: space-between;
+
+a{margin-left: 2rem;
+img{height: 1rem;}}
+
+& > div > ul > li{margin-top: 0.5rem;
+font-size: var(--fs-sm);}
+
+& > div > ul > li:nth-child(1){color: var(--brand-color-primary) ;}  
+li{
+    list-style: none;
+}
+}
+
+& li{list-style: none;}
+& li:nth-child(1){color: var(--brand-color-primary);
+}
+.divfooter{
+  margin-top: 3rem;
+  display: grid;
+  justify-content: center;
+ & picture{
+  & img{margin-inline: 0.5rem;}
+ } 
+ & nav{ margin-top: 0.6rem;
+  & a{font-size: var(--fs-sm);}
+
+
+
+}
+}
+}
+
+
+@media (width <=38rem) {
+  #footer{
+
+    .footer{
+     
+    display: grid;
+& > a:nth-child(1){margin-left: 1.5rem ;}  
+   
+  }
+& ul{ margin-top: 2rem;}
+}
+
+}
+ 
+
+
+@media (width = 768px) {
+.footer{
+ & > a:nth-child(1){margin-left: 1.2rem;}
+}
+
+#footer{
+
+
+.divfooter{
+  display: flex;
+  justify-content: space-between;
+  & picture{gap: 0px;
+    & img{margin-inline: 0.1rem;}
+  }
+
+}
+ }
+  }
+
+
+
+
+
+
+
+@media (width>=40rem) {
+#footer{
+  & a, li:nth-child(1) {margin-left: 4rem;}
+.divfooter{
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 18rem;
+  & picture{gap: 0px;
+    & img{margin-inline: 0.1rem;}
+  
+  }
+  
+}
+
+.footer{width: 968px;
+margin: auto;
+
+}
+}}
